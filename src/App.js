@@ -6,6 +6,10 @@ import "./App.css";
 class App extends Component {
   state = {
     todos: [
+      { id: 1, content: "buy some milk" },
+      { id: 2, content: "play mario cart" },
+      { id: 3, content: "watch tv" },
+      { id: 4, content: "workout" },
     ],
   };
   deleteTodo = (id) => {
