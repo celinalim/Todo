@@ -1,0 +1,8 @@
+.App {
+  background: plum;
+  height: 100vh;
+}
+
+.collection-item {
+  cursor: pointer;
+}
